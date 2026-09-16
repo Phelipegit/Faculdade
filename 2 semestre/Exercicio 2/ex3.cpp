@@ -17,6 +17,7 @@ int main() {
     for(int i = 0; i < 255;i++) {
         if(frase[i] == ' ' && frase[i + 1] != '\0') {
             qtdPalavras++;
+        } else {
             break;
         }
     }
